@@ -1,0 +1,183 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --focus-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --main-bg-color: rgba(47, 48, 58, 0.8);
+}
+
+/* чорный основной #212121
+полностью черный #000000 
+второй серый #757575
+белый основной #ffffff
+синий фокус #2196F3 
+подвал #2f303a */
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ШАПКА!!! */
+.logo {
+  color: #000000;
+}
+
+.logo-text {
+  color: var(--focus-color);
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--focus-color);
+}
+
+.contacts-text {
+  color: var(--secondary-text-color);
+}
+
+.contacts-text:focus,
+.contacts-text:hover {
+  color: var(--focus-color);
+}
+
+/* ОСНОВНОЕ!!! */
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.primarybutton {
+  color: #ffffff;
+}
+
+/* .creed {
+} */
+
+/* .creed-title {
+  color: #212121;
+} */
+
+.creed-titles {
+  color: var(--primary-text-color);
+}
+
+.creed-text {
+  color: var(--secondary-text-color);
+}
+
+/* .work {
+} */
+
+.work-title {
+  color: var(--primary-text-color);
+}
+
+.work-titles {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  color: var(--primary-text-color);
+}
+
+.member {
+  color: var(--primary-text-color);
+}
+
+.member-role {
+  color: var(--secondary-text-color);
+}
+
+/* .clients {
+} */
+
+.clients-title {
+  color: var(--primary-text-color);
+}
+
+/* .clients-company {
+} */
+
+/* ПОДВАЛ!!! */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+/* .address {
+} */
+
+.address-location {
+  color: #ffffff;
+}
+
+.address-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-adress {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-titles {
+  color: #ffffff;
+}
+
+.sm-links-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dev-by {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* PORTFOLIO */
+
+/* .portfolio {
+} */
+
+/* .portfolio-title {
+} */
+
+.portfolio-nav {
+  color: var(--primary-text-color);
+}
+
+.portfolio-nav-item {
+}
+
+.portfolio-nav-item:focus,
+.portfolio-nav-item:hover {
+  color: var(--focus-color);
+}
+
+.project-title {
+  color: var(--primary-text-color);
+}
+
+.project-type {
+  color: var(--secondary-text-color);
+}
